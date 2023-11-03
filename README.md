@@ -21,7 +21,7 @@ DB연동 CRUD 연습1
 💡 데이터 수정
   - 구현 예정!
 
-# 현재 문제점 및 개선해야할 점
+# 현재 문제점 및 개선 해야할 점
 💡 선택한 row의 데이터를 삭제해줘야 하는데, 다른 row가 삭제됨
   - CustomerVO에 getSelectedRow()를 바로 넘겨주어, primaryKey와 getSelectedRow()의 인덱스 값이 달라서 선택한 row가 아닌 다른 row가 삭제되는 문제.
   - getSelectedRow()로 선택한 row의 고객 No를 가져와서 int로 선언 후 그 값을 CustomerVO의 set 메소드를 이용해 넘겨서 해결하기
