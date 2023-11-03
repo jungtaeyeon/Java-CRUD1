@@ -1,11 +1,11 @@
-# #Java-CRUD1
+# # Java-CRUD1
 DB연동 CRUD 연습1
 
-# #프로젝트 목표
+# # 프로젝트 목표
 - Java의 JFrame을 활용하여 DB연동을 해 간단한 CRUD 연습하기 !!
 - class 나누는 연습하기 !!
 
-# #주요 기능
+# # 주요 기능
 💡 데이터 추가
   - JButton을 이용해 구현한 "추가" 버튼을 누르면 JTextFiled에 입력한 데이터가 입력되도록 구현
 
