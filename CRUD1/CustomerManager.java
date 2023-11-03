@@ -185,7 +185,7 @@ public class CustomerManager extends JFrame implements ActionListener {
 			customerInsert(cVO);
 		} else if (obj == jbtnDelete) {
 			if (jt_customer.getSelectedRow() == -1) { // -1일때(아무것도 선택되지 않았을때
-														// if문 탈출할때 return;을 사용함
+					// if문 탈출할때 return;을 사용함
 				return; // 따라서 삭제 버튼 눌렀을때 아무일도 일어나지 않는다.
 			} else { // 행이 선택되어있을때
 				cVO = new CustomerVO(jt_customer.getSelectedRow());
