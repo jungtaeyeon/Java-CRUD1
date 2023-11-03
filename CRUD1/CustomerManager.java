@@ -118,7 +118,6 @@ public class CustomerManager extends JFrame implements ActionListener {
 	 * @return true이면 성공, false이면 실패 - 메소드 선언시에 파라미터타입에 대한 선택과 리턴타입에 대한 선택 기준
 	 ***************************************************************/
 	public boolean customerDelete(CustomerVO cVO) {
-//		System.out.println("delet??");
 		cDao = new CustomerDao();
 		cDao.deleteCVOList(cVO);
 
