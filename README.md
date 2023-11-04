@@ -36,8 +36,9 @@ DB연동 CRUD 연습1
 
 # # CRUD2 문제점 및 개선해야할 점 -> 개선 후 CRUD3 커밋 예정
 1. 전체조회 하기 전에 한 건 조회 시 NullPointerException이 떨어짐...
+  - public void actionPerformed(ActionEvent e) 안에 cVO = new CustomerVO();를 빼먹고 진행했었다... 근데 한 건 조회 말고 다른 기능은 어떻게 잘 됐는지?...
 
-2. 위 오류 해결 후 데이터 수정 구현 하기 !!
+3. 위 오류 해결 후 데이터 수정 구현 하기 !!
 
 
    
