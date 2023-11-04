@@ -27,13 +27,17 @@ DB연동 CRUD 연습1
   - getSelectedRow()로 선택한 row의 고객 No를 가져와서 int로 선언 후 그 값을 CustomerVO의 set 메소드를 이용해 넘겨서 해결하기
   
 2. CusomerVO에는 기본적인 getter, setter 메소드 외에 다른 getter, setter 메소드를 만들어 사용해서 코드가 재사용성이 떨어지고 유지보수가 어려움 (1과 같은 이슈도 발생함.)
+  - CusomerVO에서 setC_id(int c_id) 을 setC_id(String c_id)으로 바꿔서 String타입으로 받으려 했으나, ClassCastException이 터졌다...
+  - cVO.setC_id() 에 넣는 값을 모두 int 타입으로 변경해줌. (Integer.ParseInt() 사용)
 
 3. 현재 선택한 row 삭제 시, DB에서 데이터가 삭제되는 코드 따로, DefaultTableModel에서 삭제되는 코드 따로 이렇게 구현함...
   - 데이터 수정까지 구현 한 다음 선택한 row 삭제 후 DB에서 테이블에 삭제된 데이터를 불러오는 방식으로 바꿀 예정 !!!
 
 
 # # CRUD2 문제점 및 개선해야할 점 -> 개선 후 CRUD3 커밋 예정
-1. CRUD1에서 2번 개선사항 개선 후 ClassCastException이 터졌다.. CustomerManager.java:197 라인 해결 필요
+1. 전체조회 하기 전에 한 건 조회 시 NullPointerException이 떨어짐...
+
+2. 위 오류 해결 후 데이터 수정 구현 하기 !!
 
 
    
