@@ -1,4 +1,4 @@
-# # Java-CRUD1
+# # Java-CRUD_1
 DB연동 CRUD 연습1
 
 # # 프로젝트 목표
@@ -21,7 +21,7 @@ DB연동 CRUD 연습1
 💡 데이터 수정
   - 구현 예정!
 
-# # CRUD1 문제점 및 개선해야할 점 -> 개선 후 CRUD1-2 커밋 예정
+# # CRUD1 문제점 및 개선해야할 점 -> 개선 후 CRUD2 커밋 예정
 1. 선택한 row의 데이터를 삭제해줘야 하는데, 다른 row가 삭제됨
   - CustomerVO에 getSelectedRow()를 바로 넘겨주어, primaryKey와 getSelectedRow()의 인덱스 값이 달라서 선택한 row가 아닌 다른 row가 삭제되는 문제.
   - getSelectedRow()로 선택한 row의 고객 No를 가져와서 int로 선언 후 그 값을 CustomerVO의 set 메소드를 이용해 넘겨서 해결하기
@@ -32,12 +32,9 @@ DB연동 CRUD 연습1
   - 데이터 수정까지 구현 한 다음 선택한 row 삭제 후 DB에서 테이블에 삭제된 데이터를 불러오는 방식으로 바꿀 예정 !!!
 
 
-# # CRUD2 문제점 및 개선해야할 점 -> 개선 후 CRUD1-3 커밋 예정
+# # CRUD2 문제점 및 개선해야할 점 -> 개선 후 CRUD3 커밋 예정
 1. CRUD1에서 2번 개선사항 개선 후 ClassCastException이 터졌다.. CustomerManager.java:197 라인 해결 필요
 
-2. 데이터 수정 구현 하기!!
-
-3. 
 
    
 
