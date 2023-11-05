@@ -41,8 +41,12 @@ DB연동 CRUD 연습1
 3. 위 오류 해결 후 데이터 수정 구현 하기 !!
 
 # # CRUD3 문제점 및 개선해야할 점 -> 개선 후 CRUD4 커밋 예정
-1. CustomerManager.java의 테이블에서 선택한 row의 값을 가져와 새 창(CustomerDialog.java)에 뿌려주는 코드를 짜는 과정에서.. 문제 발생
-  - 
+1. CustomerManager.java의 테이블에서 선택한 row의 값을 가져와 새 창(CustomerDialog.java)에 뿌려주는 코드를 짜는 과정에서.. 문제 발생 (ClassCastException)
+  - CustomerDialog.java의 60번~65번 라인
+
+2. CustomerDialog.java의 새 창 에서 제일 위row(인덱스 0)의 데이터 수정 후 그 row의 index값을 Dao에 넘겨서 수정되는 방식으로 DB 테이블에 반영되는것은 확인 하였다.
+   그러나, CustomerDialog.java의 새 창 에서 "확인" 버튼을 눌렀을 때 Dialog 창이 닫히면서, 원래 부모창에 있던 데이터가 바로 반영되지 않는다.(다시 조회해야 바뀜) - 해결하자 !!
+
 
 
    
