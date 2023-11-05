@@ -40,6 +40,10 @@ DB연동 CRUD 연습1
 
 3. 위 오류 해결 후 데이터 수정 구현 하기 !!
 
+# # CRUD3 문제점 및 개선해야할 점 -> 개선 후 CRUD4 커밋 예정
+1. CustomerManager.java의 테이블에서 선택한 row의 값을 가져와 새 창(CustomerDialog.java)에 뿌려주는 코드를 짜는 과정에서.. 문제 발생
+  - 
+
 
    
 
