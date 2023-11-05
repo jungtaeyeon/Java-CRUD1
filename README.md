@@ -48,6 +48,8 @@ DB연동 CRUD 연습1
 
    그러나, CustomerDialog.java의 새 창 에서 "확인" 버튼을 눌렀을 때 Dialog 창이 종료된 후, 원래 부모창에 있던 데이터가 바로 반영되지 않는다.(다시 조회해야 바뀜) - 해결하자 !!
 
+3. TextField에 아무것도 입력 안 한 상태 및 존재하지 않는 c_id 입력 후 "한 건 조회" 버튼 클릭 시, NullPointerException이 아닌 얼럿창이 노출되게 개선하기 !!!
+
 
 
    
