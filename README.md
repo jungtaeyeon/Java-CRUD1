@@ -50,6 +50,13 @@ DB연동 CRUD 연습1
 
 3. TextField에 아무것도 입력 안 한 상태 및 존재하지 않는 c_id 입력 후 "한 건 조회" 버튼 클릭 시, NullPointerException이 아닌 얼럿창이 노출되게 개선하기 !!!
 
+# # CRUD4 -> CustomerVO 대신 List<Map<String, Object>> 를 사용하여 List, Map 연습하기 ! CRUD5로 업로드 예정 !
+CRUD3 의 2번 CustomerDialog에 확인 버튼 클릭 시, 창이 닫히며 customerManager.customerSelectAll();를 호출하여 다시 전체조회를 해주는 식으로 수정!
+3번의 개선사항은 일단 킵. List, Map 먼저 연습하기!!
+
+List, Map 사용하는 과정에서 문제 발생
+1. 한 건 조회 시 IndexOutOfBoundsException 발생.. 
+
 
 
    
