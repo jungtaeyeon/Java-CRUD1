@@ -91,6 +91,7 @@ public class CustomerDialog extends JFrame implements ActionListener {
 			String c_biString = dtm.getValueAt(0, 2).toString();
 			cDao.updateCVO(Integer.parseInt(c_id), c_name, c_biString);
 			this.dispose();
+			customerManager.customerSelectAll();
 		}
 	}
 
