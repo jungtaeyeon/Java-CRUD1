@@ -91,7 +91,8 @@ public class CustomerDialog extends JFrame implements ActionListener {
 			String c_biString = dtm.getValueAt(0, 2).toString();
 			cDao.updateCVO(Integer.parseInt(c_id), c_name, c_biString);
 			this.dispose();
-			customerManager.customerSelectAll();
+			customerManager.customerSelectAll(); // "확인" 버튼 클릭 시, 창이 닫히면서 다시 DB 테이블의 데이터를 전체조회 해주기 !!
+			
 		}
 	}
 
