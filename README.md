@@ -56,7 +56,7 @@ CRUD3 의 2번 CustomerDialog에 확인 버튼 클릭 시, 창이 닫히며 cust
 
 List, Map 사용하는 과정에서 문제 발생
 1. 한 건 조회 시 IndexOutOfBoundsException 발생..<br/>
-CustomerManager 166번 라인 ~  170번 라인 해결 !
+    CustomerManager 166번 라인 ~  170번 라인 해결 !
    
 2. CustomerManager 클래스 -> customerDelete 메소드에서<br/>
    // cDao.deleteCVOList(selectRowNum);<br/>
